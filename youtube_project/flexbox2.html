@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox practice 2</title>
+</head>
+<body>
+  <div style="
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    ">
+    <div style="background-color: lightblue;
+    width: 200px">DIV I</div>
+    <div style="background-color: lightpink;
+    width: 200px">DIV II</div>
+  </div>
+
+  <div style="
+      display: flex;
+      flex-direction: row-reverse;  /*The elements in Flexbox won't change*/
+      margin-bottom: 20px;
+    ">
+    <div style="background-color: lightblue;
+    width: 200px;">DIV I</div>
+    <div style="background-color: lightpink;
+    flex: 1;">DIV II</div>
+  </div>
+
+  <div style="
+      display: flex;
+      flex-direction: row;  /*The elements in Flexbox won't change*/
+      margin-bottom: 20px;
+      justify-content: space-evenly;
+    ">
+    <div style="background-color: lightblue;
+    width: 200px;">DIV I</div>
+    <div style="background-color: lightpink;
+    width: 200px;">DIV II</div>
+    <div style="background-color: lightblue;
+    width: 200px;">DIV III</div>
+  </div>
+
+  <div style="
+      display: flex;
+      flex-direction: row;  /*The elements in Flexbox won't change*/
+      margin-bottom: 20px;
+      justify-content: space-around;
+    ">
+    <div style="background-color: lightblue;
+    width: 200px;">DIV I</div>
+    <div style="background-color: lightpink;
+    width: 200px;">DIV II</div>
+    <div style="background-color: lightblue;
+    width: 200px;">DIV III</div>
+  </div>
+
+  <div style="
+      display: flex;
+      flex-direction: row;  /*The elements in Flexbox won't change*/
+      margin-bottom: 20px;
+      justify-content: space-between;
+    ">
+    <div style="background-color: lightblue;
+    width: 200px;">DIV I</div>
+    <div style="background-color: lightpink;
+    width: 200px;">DIV II</div>
+    <div style="background-color: lightblue;
+    width: 200px;">DIV III</div>
+  </div>
+
+
+  <div class="container"
+  style="
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ">
+    <div class="box1"
+    style="background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    ">DIV 1</div>
+    <div class="box2"
+    style="background-color: lightpink;
+    flex: 1;
+    height: 40px;
+    "></div>
+    <div class="box3"
+    style="background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    ">DIV 3</div>
+  </div>
+</body>
+</html>
