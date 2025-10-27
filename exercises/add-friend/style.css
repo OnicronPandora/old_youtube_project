@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  height: 3000px;
+}
+
+.container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 55px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  flex: 1;
+}
+
+.user-image img {
+  height: 38px;
+  border-radius: 25px;
+}
+
+.username {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.button {
+  display: flex;
+  margin-right: 80px;
+}
+
+.add-friend-button button {
+  background-color: rgb(0, 120, 255);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: background-color, opacity 0.15s;
+  cursor: pointer;
+}
+
+.add-friend-button button:hover {
+  background-color: rgb(0, 105, 225);
+}
+
+.add-friend-button button:active{
+  opacity: 0.6;
+}
+
+.message-button button {
+  border: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 5px;
+  transition: background-color, opacity 0.15s;
+  cursor: pointer;
+}
+
+.message-button button:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+.message-button button:active {
+  opacity: 0.6;
+}
+
+
+

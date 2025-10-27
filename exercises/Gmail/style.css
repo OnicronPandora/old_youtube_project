@@ -1,0 +1,61 @@
+div  {
+  font-family: Arial;
+}
+
+.container {
+  box-shadow: 0 0 7px rgba(0,0,0,0.25);
+  padding-bottom: 1px;
+  width: 450px;
+  border-radius: 5px;
+  
+}
+
+.inbox-label {
+  margin-left: 12px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  color: gray;
+}
+
+.notification-container {
+  display: flex;
+  margin-left: 12px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user-image img {
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.user-notification {
+  flex: 1;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.time {
+  color: gray;
+  margin-right: 25px;
+}
+
+.title-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 16.5px;
+}
+
+.content {
+  color: gray;
+}

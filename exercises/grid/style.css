@@ -1,0 +1,42 @@
+.contain {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 20px;
+}
+
+#box1{
+  background-color: lightblue;
+}
+
+#box2{
+  background-color: lightpink;
+}
+
+.boxes{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 20px;
+}
+
+#box3 {
+  background-color: lightblue;
+}
+
+#box4 {
+  background-color: lightpink;
+}
+
+#box5 {
+  background-color: lightblue;
+}
+
+.alternative {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.alternative div {
+  background-color: lightpink;
+}

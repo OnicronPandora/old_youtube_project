@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.box1 {
+  background-color: lightpink;
+  display: flex;
+  height: 70px;
+  width: 100px;
+  align-items: center;
+}
+
+.box2 {
+  background-color: lightblue;
+  height: 70px;
+  width: 200px;
+}
+
+.box1 div {
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+}
+
+.contain {
+  display: flex;
+}
+
+.div1 {
+  background-color: lightpink;
+  height: 70px;
+  width: 100px;
+}
+
+.div2 {
+  background-color: lightblue;
+  height: 70px;
+  width: 200px;
+}
+
+.interside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inside2 {
+  background-color: black;
+  color: white;
+}
